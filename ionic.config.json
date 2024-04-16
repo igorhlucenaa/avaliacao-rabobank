@@ -1,0 +1,7 @@
+{
+  "name": "avaliacao_rabobank",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
