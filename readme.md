@@ -12,31 +12,20 @@ Antes de iniciar, certifique-se de ter o Node.js e o npm instalados em sua máqu
 
 git clone https://github.com/seu-usuario/avaliacao-rabobank.git
 
-arduino
-Copy code
-
 2. Navegue até o diretório do projeto:
 
 cd avaliacao-rabobank
 
-csharp
-Copy code
 
 3. Instale as dependências do projeto:
 
 npm install
-
-shell
-Copy code
 
 ## Rodando o aplicativo localmente
 
 Para rodar o aplicativo localmente em seu navegador:
 
 ionic serve
-
-css
-Copy code
 
 Isso abrirá o aplicativo em seu navegador padrão. Você também pode adicionar a flag `--lab` para visualizar o aplicativo em diferentes tamanhos de tela.
 
@@ -45,9 +34,6 @@ Isso abrirá o aplicativo em seu navegador padrão. Você também pode adicionar
 Para compilar o aplicativo e construir os arquivos para produção:
 
 ionic build --prod
-
-less
-Copy code
 
 Isso irá gerar os arquivos de build na pasta `www`, prontos para serem implantados em um servidor web ou em um dispositivo móvel.
 
