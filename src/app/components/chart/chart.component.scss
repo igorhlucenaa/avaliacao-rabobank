@@ -1,0 +1,43 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+
+.button-container {
+  background-color: #fff;
+  position: fixed;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ion-button {
+  margin-bottom: 10px;
+
+  img {
+    width: 60px;
+  }
+}
+
+.orientation {
+  position: fixed;
+  left: calc(10px + 100px);
+  top: 0;
+  width: calc(100vw - 110px);
+  height: 100vh;
+  orientation: landscape;
+  aspect-ratio: 16/9;
+}
